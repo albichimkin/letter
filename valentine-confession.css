@@ -189,4 +189,63 @@ body {
 .openedHer {
 	top: 85%;
 	transform: translate(-50%, 0);
+
 }
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="valentine-confession.css">
+        <title>Valentine Confession</title>
+    </head>
+    <body>
+        <p class="instruction">Click the heart!</p>
+        <div class="container">
+            <label>
+            <div class="heart">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg"></img>
+            </div>
+            <input id="messageState" type="checkbox" style="display:none"/>
+            </label>
+            <div class="message">
+                <h1 style="font-family: Cinzel, serif; font-size: 40px; letter-spacing: 1.2px;">My dearest,Micmic</h1>
+                <p> 
+                    <span>
+                        &emsp; Hello, baby! How are you po? I hope you’re doing fine talaga. Anyways, I wanna thank you po for always being there by my side, for understanding my situation, and for those advice and comfort I got from you. Walaaa, these past few days kasi dai kita nagka-ulay ning tultol :( and I’m really sorry for that po, I know naiintindihan mo situation ko rn, but I’m not taking advantage of that po ha—na kapag dai ako nagpapamati, maiintindihan mo na kaagad. I just wanna make bawi po kahit digitan or thru online muna. I miss you so so bad, baby :( if alam mo lang how much I am longing for your presence huhu. 
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp;  I just wanna clear din po na parang I’m not chatting u that much, it’s because I’m taking a break from socmed po, and I know na nadadamay ka duman that’s why I wanna make bawi talaga saimooo, ik na nagtatampo ika even tho e mo ean aminon 🥹sobra sobra, as in sobra ko na ikaw nami-misssss. Minsan po kaya, I feel like I'm being pulled in so many directions, lalo na igdi sa harong, kaya I often feel overwhelmed and overstimulated po and I don’t wanna drag you into my mess. Simpleng comfort mo, okay na ako. And I don't want you to feel na napapabayaan ko ika. I really don’t want you to overthink or feel neglected, babyyyyy. You mean so much to me po. As in sobra.
+                    </span>   
+                    <br> <br>
+                    <span>
+                        &emsp;  Kaya kahit sa tiktok kita nag-uulay, I’m still vvv grateful ta may way pa nanggad kita para maka-ulay ang kada saro dawa para-papano. Dae man siya tultol, at least u’re still there po, waiting for me, and it meant the world for me po. I wanna remind u na I’m holding on to us, okiii? Kahit nakakadiscourage man (ning very very very slight) since we feel that something is getting in our way, but I must say na malalampasan ta man ini. We’re still kids trying to figure things out HAHAHbcvxjj but that doesn't mean we’ll give up. We’ll get through this together.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp;  Once again, thank you so much po for staying, understanding, and for loving me d way u doooooo. Dae ko man nasasabi always, pero I hope u can feel na I care so much about u po, kaya love love ko ika na maray iihh. Just wait for me po, ha? I’m still doing my best para maayos ang gabos—sa sadiri ko, sa situation ko, nd here sa bahay.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp;  Padangaton ko ikang maray, baby, and I miss you so so bad. If anything starts to hurt or feel off, I’m here lang din ha—always, in all ways.
+                </p>
+                <br>
+                <div class="sincere">
+                    <p style="font-weight: bold;"> Forever your baby,</p>
+                    <p>Your Ambe</p>
+                 </div>
+            </div>
+        </div>
+        
+        <script src="jquery.js"></script>
+        <script src="jquery2.1.js"></script>
+        <script defer src="valentine-confession.js"></script>
+    </body>
+</html>
+
+
+
